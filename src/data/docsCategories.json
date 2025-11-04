@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "title": "Getting Started",
+      "description": "サイトのセットアップ、インストール、基本的な使い方を学びます。開発環境の構築からデプロイまでをカバーします。",
+      "icon": "🚀",
+      "link": "/docs/intro",
+      "tags": ["初心者向け", "セットアップ", "基礎"],
+      "itemCount": 1
+    },
+    {
+      "title": "Writing Guide",
+      "description": "ブログ記事やプロジェクト情報の作成・更新方法を学びます。コンテンツ管理のベストプラクティスを紹介します。",
+      "icon": "✍️",
+      "link": "/docs/WRITING_GUIDE",
+      "tags": ["コンテンツ", "ブログ", "執筆"],
+      "itemCount": 1
+    },
+    {
+      "title": "Development",
+      "description": "開発ワークフロー、コーディング規約、テスト、デバッグなど、開発に関する詳細なドキュメントです。",
+      "icon": "💻",
+      "link": "/docs/development/overview",
+      "tags": ["開発", "コーディング", "ワークフロー"],
+      "itemCount": 1
+    },
+    {
+      "title": "Design System",
+      "description": "UIコンポーネント、カラーパレット、タイポグラフィ、レイアウトなど、デザインシステムのガイドラインです。",
+      "icon": "🎨",
+      "link": "/docs/design/overview",
+      "tags": ["デザイン", "UI/UX", "コンポーネント"],
+      "itemCount": 1
+    },
+    {
+      "title": "API Reference",
+      "description": "利用可能なAPI、関数、フック、ユーティリティのリファレンスドキュメントです。",
+      "icon": "📚",
+      "link": "/docs/api/overview",
+      "tags": ["API", "リファレンス", "関数"],
+      "itemCount": 1
+    },
+    {
+      "title": "Deployment",
+      "description": "Vercel、Netlify、その他のプラットフォームへのデプロイ方法とCI/CDの設定について説明します。",
+      "icon": "🚢",
+      "link": "/docs/deployment/overview",
+      "tags": ["デプロイ", "CI/CD", "本番環境"],
+      "itemCount": 1
+    }
+  ]
+}
+

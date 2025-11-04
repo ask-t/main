@@ -91,9 +91,19 @@ const config: Config = {
       hideOnScroll: true,
       items: [
         { to: '/', label: 'Home', position: 'left' },
+        { to: '/profile', label: 'About', position: 'left' },
         { to: '/projects', label: 'Projects', position: 'left' },
-        { to: '/blog', label: 'Writing', position: 'left' },
-        { to: '/docs/intro', label: 'Docs', position: 'left' },
+        {
+          type: 'dropdown',
+          label: 'Resources',
+          position: 'left',
+          items: [
+            { to: '/blog', label: 'Blog'},
+            { to: '/docs/intro', label: 'Documentation' },
+            { to: '/docs/WRITING_GUIDE', label: 'Writing Guide' },
+          ],
+        },
+        { href: 'https://github.com/asktakahashi', label: 'GitHub', position: 'right' },
         { href: 'mailto:ask@example.com', label: 'Contact', position: 'right' },
       ],
     },

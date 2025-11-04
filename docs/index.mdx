@@ -1,0 +1,107 @@
+---
+title: Documentation
+sidebar_position: 0
+sidebar_label: 📖 Documentation
+hide_table_of_contents: true
+---
+
+import Layout from "@theme/Layout";
+import DocsCategoryCard from "@site/src/components/ui/DocsCategoryCard";
+import docsData from "@site/src/data/docsCategories.json";
+
+<div className="docs-index-page">
+  {/* Header */}
+  <section className="container mx-auto px-4 py-24">
+    <div className="max-w-4xl mx-auto text-center">
+      <h1 className="text-4xl md:text-6xl font-bold text-[var(--fg)] mb-6">
+        Documentation
+      </h1>
+      <p className="text-xl text-[var(--muted)] max-w-2xl mx-auto">
+        包括的なガイド、チュートリアル、APIリファレンスで、プロジェクトを最大限に活用しましょう。
+      </p>
+    </div>
+  </section>
+
+{/* Categories Grid */}
+
+{" "}
+
+<section className="container mx-auto px-4 pb-24">
+  <div className="max-w-7xl mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {docsData.categories.map((category, index) => (
+        <div
+          key={index}
+          className="animate-fade-in-up"
+          style={{ animationDelay: `${index * 0.1}s` }}
+        >
+          <DocsCategoryCard {...category} />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* Quick Links Section */}
+
+  <section className="container mx-auto px-4 py-16 bg-[var(--card-bg)] rounded-lg mb-24">
+    <div className="max-w-4xl mx-auto">
+      <h2 className="text-2xl md:text-3xl font-bold text-[var(--fg)] mb-8 text-center">
+        クイックリンク
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <a
+          href="/docs/intro"
+          className="p-6 bg-[var(--bg)] rounded-lg hover:shadow-lg transition-shadow"
+          style={{ textDecoration: 'none' }}
+        >
+          <h3 className="text-lg font-semibold text-[var(--fg)] mb-2">
+            🚀 クイックスタート
+          </h3>
+          <p className="text-[var(--muted)] text-sm">
+            5分でプロジェクトをセットアップして起動
+          </p>
+        </a>
+        
+        <a
+          href="/docs/WRITING_GUIDE"
+          className="p-6 bg-[var(--bg)] rounded-lg hover:shadow-lg transition-shadow"
+          style={{ textDecoration: 'none' }}
+        >
+          <h3 className="text-lg font-semibold text-[var(--fg)] mb-2">
+            ✍️ コンテンツの書き方
+          </h3>
+          <p className="text-[var(--muted)] text-sm">
+            ブログ記事やドキュメントを作成する方法
+          </p>
+        </a>
+        
+        <a
+          href="https://github.com/asktakahashi"
+          className="p-6 bg-[var(--bg)] rounded-lg hover:shadow-lg transition-shadow"
+          style={{ textDecoration: 'none' }}
+        >
+          <h3 className="text-lg font-semibold text-[var(--fg)] mb-2">
+            💬 サポート
+          </h3>
+          <p className="text-[var(--muted)] text-sm">
+            質問や問題がある場合はGitHubで連絡
+          </p>
+        </a>
+        
+        <a
+          href="/blog"
+          className="p-6 bg-[var(--bg)] rounded-lg hover:shadow-lg transition-shadow"
+          style={{ textDecoration: 'none' }}
+        >
+          <h3 className="text-lg font-semibold text-[var(--fg)] mb-2">
+            📝 ブログ
+          </h3>
+          <p className="text-[var(--muted)] text-sm">
+            最新の記事やアップデートをチェック
+          </p>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>

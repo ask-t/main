@@ -248,6 +248,30 @@ body {
   box-shadow: var(--shadow-md);
 }
 
+/* ドキュメントカテゴリーカード */
+.docs-category-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: var(--transition);
+  display: block;
+  height: 100%;
+}
+
+.docs-category-card:hover {
+  background-color: var(--hover-bg);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--accent);
+}
+
+/* Docsインデックスページ */
+.docs-index-page {
+  background-color: var(--bg);
+  min-height: 100vh;
+}
+
 /* レスポンシブ */
 @media (max-width: 768px) {
   :root {
