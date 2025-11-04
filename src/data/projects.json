@@ -1,96 +1,96 @@
 {
   "featuredProjects": [
     {
-      "title": "Next-Gen E-commerce Platform",
-      "description": "Revolutionary e-commerce solution featuring AI-powered product recommendations, real-time inventory management, and multi-channel payment integration. Built with scalable architecture capable of handling 1M+ monthly page views.",
-      "tags": ["E-commerce", "AI/ML", "Scalability"],
-      "role": "Technical Lead",
-      "stack": ["Next.js 14", "TypeScript", "Prisma", "PostgreSQL", "Redis", "Stripe"],
+      "title": "AI-Powered SaaS Content Editor",
+      "description": "Core feature development for an unreleased SaaS product with AI-driven content editing capabilities using GPT-based models. Enables users to generate, edit, and optimize content for media, social media, and blog posts with a seamless and responsive user interface.",
+      "tags": ["SaaS", "AI/ML", "React"],
+      "role": "SaaS Developer Intern",
+      "stack": ["React", "TypeScript", "GPT API", "REST API"],
       "image": "/images/gallery/image1.png",
-      "link": "https://nextgen-ecommerce.com",
-      "github": "https://github.com/ask-t/nextgen-ecommerce"
+      "link": "https://github.com/ask-t",
+      "github": "https://github.com/ask-t"
     },
     {
-      "title": "Enterprise Design System",
-      "description": "Comprehensive design system for large-scale enterprises. Features 50+ reusable components, automated accessibility testing, and multilingual documentation. Achieved 40% improvement in development efficiency.",
-      "tags": ["Design System", "Enterprise", "Accessibility"],
-      "role": "Design System Architect",
-      "stack": ["React", "Storybook", "Figma", "TypeScript", "Jest", "Playwright"],
+      "title": "University Enterprise Information Systems",
+      "description": "Designed and maintained 10+ web applications for various BYU-Hawaii departments using Mendix low-code platform and Oracle DB. Developed REST APIs using ASP.NET in C# with Docker containers to streamline database access for non-backend engineers.",
+      "tags": ["Enterprise", "Low-code", "Full-stack"],
+      "role": "Student Developer/Analyst",
+      "stack": ["Mendix", "ASP.NET", "C#", "Oracle DB", "Docker", "REST API"],
       "image": "/images/gallery/image2.png",
-      "link": "https://enterprise-design-system.com",
-      "github": "https://github.com/ask-t/enterprise-design-system"
+      "link": "https://github.com/ask-t",
+      "github": "https://github.com/ask-t"
     },
     {
-      "title": "Real-time Analytics Platform",
-      "description": "Enterprise-grade real-time analytics platform with big data processing, interactive dashboards, and predictive analytics capabilities. Achieved 300% improvement in data processing speed.",
-      "tags": ["Analytics", "Big Data", "Real-time"],
-      "role": "Full-stack Developer",
-      "stack": ["React", "D3.js", "Node.js", "Apache Kafka", "ClickHouse", "Docker"],
+      "title": "Notion Database Application",
+      "description": "Web application that integrates with Notion API to manage and interact with Notion databases, providing enhanced functionality for data management and organization.",
+      "tags": ["API Integration", "Productivity"],
+      "role": "Developer",
+      "stack": ["Python", "Notion API", "Flask"],
       "image": "/images/gallery/image3.png",
-      "link": "https://realtime-analytics.com",
-      "github": "https://github.com/ask-t/realtime-analytics"
+      "link": "https://github.com/ask-t/APP_Notion-Datbase",
+      "github": "https://github.com/ask-t/APP_Notion-Datbase"
     }
   ],
   "allProjects": [
     {
-      "title": "E-commerce Platform",
-      "description": "Modern e-commerce solution built with Next.js, TypeScript, and Tailwind CSS. Features include product catalog, shopping cart, payment integration, and admin dashboard.",
-      "tags": ["E-commerce", "Full-stack"],
-      "role": "Lead Developer",
-      "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Prisma"],
+      "title": "AI-Powered SaaS Content Editor",
+      "description": "Core feature development for an unreleased SaaS product with AI-driven content editing capabilities using GPT-based models. Enables users to generate, edit, and optimize content for media, social media, and blog posts.",
+      "tags": ["SaaS", "AI/ML", "React"],
+      "role": "SaaS Developer Intern",
+      "stack": ["React", "TypeScript", "GPT API", "REST API"],
       "image": "/images/gallery/image1.png",
-      "link": "https://example-ecommerce.com",
-      "github": "https://github.com/username/ecommerce-platform"
+      "link": "https://github.com/ask-t",
+      "github": "https://github.com/ask-t"
     },
     {
-      "title": "Design System",
-      "description": "Comprehensive design system with reusable components and documentation. Built for consistency across multiple products and teams.",
-      "tags": ["Design System", "Documentation"],
-      "role": "Design Engineer",
-      "stack": ["React", "Storybook", "Figma", "TypeScript"],
-      "image": "images/gallery/image5.png",
-      "link": "https://design-system.example.com",
-      "github": "https://github.com/username/design-system"
-    },
-    {
-      "title": "Analytics Dashboard",
-      "description": "Real-time analytics dashboard with interactive charts and data visualization. Built for monitoring key business metrics and user behavior.",
-      "tags": ["Analytics", "Data Visualization"],
-      "role": "Frontend Developer",
-      "stack": ["React", "D3.js", "Node.js", "PostgreSQL"],
-      "image": "/images/gallery/image6.png",
-      "link": "https://analytics.example.com",
-      "github": "https://github.com/username/analytics-dashboard"
-    },
-    {
-      "title": "Mobile Banking App",
-      "description": "Secure mobile banking application with biometric authentication, real-time transactions, and comprehensive financial management features.",
-      "tags": ["Mobile", "Fintech", "Security"],
-      "role": "Frontend Developer",
-      "stack": ["React Native", "TypeScript", "Redux", "Jest"],
+      "title": "University Enterprise Information Systems",
+      "description": "Designed and maintained 10+ web applications for various BYU-Hawaii departments using Mendix low-code platform and Oracle DB. Developed REST APIs using ASP.NET in C# with Docker containers.",
+      "tags": ["Enterprise", "Low-code", "Full-stack"],
+      "role": "Student Developer/Analyst",
+      "stack": ["Mendix", "ASP.NET", "C#", "Oracle DB", "Docker", "REST API"],
       "image": "/images/gallery/image2.png",
-      "link": "https://banking-app.example.com",
-      "github": "https://github.com/username/banking-app"
+      "link": "https://github.com/ask-t",
+      "github": "https://github.com/ask-t"
     },
     {
-      "title": "Content Management System",
-      "description": "Headless CMS with real-time collaboration, version control, and multi-channel publishing capabilities.",
-      "tags": ["CMS", "Collaboration", "API"],
-      "role": "Full-stack Developer",
-      "stack": ["Next.js", "Node.js", "MongoDB", "GraphQL"],
+      "title": "Notion Database Application",
+      "description": "Web application that integrates with Notion API to manage and interact with Notion databases, providing enhanced functionality for data management and organization.",
+      "tags": ["API Integration", "Productivity"],
+      "role": "Developer",
+      "stack": ["Python", "Notion API", "Flask"],
       "image": "/images/gallery/image3.png",
-      "link": "https://cms.example.com",
-      "github": "https://github.com/username/cms"
+      "link": "https://github.com/ask-t/APP_Notion-Datbase",
+      "github": "https://github.com/ask-t/APP_Notion-Datbase"
     },
     {
-      "title": "Learning Management Platform",
-      "description": "Interactive learning platform with video streaming, progress tracking, and AI-powered recommendations.",
-      "tags": ["EdTech", "Video Streaming", "AI"],
-      "role": "Frontend Developer",
-      "stack": ["React", "Video.js", "TensorFlow.js", "WebRTC"],
+      "title": "Script Translation API",
+      "description": "API service that translates scripts and text content between multiple languages, streamlining multilingual content creation workflows for developers and content creators.",
+      "tags": ["API", "Translation", "Multilingual"],
+      "role": "Developer",
+      "stack": ["Python", "REST API", "Translation APIs"],
       "image": "/images/gallery/image4.png",
-      "link": "https://lms.example.com",
-      "github": "https://github.com/username/lms"
+      "link": "https://github.com/ask-t/API_ScriptTranslate",
+      "github": "https://github.com/ask-t/API_ScriptTranslate"
+    },
+    {
+      "title": "Tango Learning App with Notion",
+      "description": "Language learning application integrated with Notion for vocabulary management. Helps users study Japanese efficiently with organized word lists and spaced repetition techniques.",
+      "tags": ["EdTech", "Language Learning", "Notion"],
+      "role": "Developer",
+      "stack": ["Python", "Notion API", "Education Tech"],
+      "image": "/images/gallery/image5.png",
+      "link": "https://github.com/ask-t/TangoAPP-with-Notion",
+      "github": "https://github.com/ask-t/TangoAPP-with-Notion"
+    },
+    {
+      "title": "Scripture Collection App",
+      "description": "Web application for collecting and organizing scripture references. Built with HTML and frontend technologies for easy access and management of religious texts.",
+      "tags": ["Web App", "Organization"],
+      "role": "Developer",
+      "stack": ["HTML", "CSS", "JavaScript"],
+      "image": "/images/gallery/image6.png",
+      "link": "https://github.com/ask-t/APP_CollectScripture",
+      "github": "https://github.com/ask-t/APP_CollectScripture"
     }
   ]
 }

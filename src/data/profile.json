@@ -1,50 +1,67 @@
 {
+  "name": "Asuku Takahashi",
+  "title": "Full Stack Developer",
+  "bio": "Computer Science student at BYU-Hawaii specializing in full-stack web development. Passionate about building scalable web applications and enterprise systems. Currently working as a Student Developer/Analyst and SaaS Developer Intern, creating innovative solutions with modern technologies.",
+  "initials": "AT",
+  "email": "please.ask.takahashi@gmail.com",
+  "phone": "(808) 807-6576",
+  "linkedin": "https://linkedin.com/in/ask-t",
+  "github": "https://github.com/ask-t",
+  "website": "https://ask-t.vercel.app",
+  "location": "Laie, HI",
+  "education": {
+    "degree": "B.S. in Computer Science",
+    "school": "Brigham Young University – Hawaii",
+    "period": "Jan 2022 - Dec 2025",
+    "location": "Laie, HI"
+  },
   "skills": [
-    { "name": "Frontend Development", "level": "Expert" },
-    { "name": "React & Next.js", "level": "Expert" },
-    { "name": "TypeScript", "level": "Advanced" },
-    { "name": "UI/UX Design", "level": "Advanced" },
-    { "name": "Node.js", "level": "Intermediate" },
-    { "name": "Python", "level": "Intermediate" }
+    { "name": "JavaScript", "level": "Proficient" },
+    { "name": "Java", "level": "Proficient" },
+    { "name": "C#", "level": "Proficient" },
+    { "name": "React", "level": "Proficient" },
+    { "name": "Python", "level": "Moderate" },
+    { "name": "HTML/CSS", "level": "Moderate" },
+    { "name": "TypeScript", "level": "Moderate" },
+    { "name": "MongoDB", "level": "Moderate" },
+    { "name": "Oracle SQL", "level": "Moderate" },
+    { "name": "MySQL", "level": "Moderate" },
+    { "name": "C++", "level": "Beginner" }
   ],
   "experience": [
     {
-      "company": "Tech Company",
-      "role": "Senior Frontend Developer",
-      "period": "2022 - Present",
-      "description": "Leading frontend development for web applications using React, TypeScript, and modern development practices."
+      "company": "Enterprise Information Systems at Brigham Young University – Hawaii",
+      "role": "Student Developer/Analyst",
+      "period": "May 2022 – Present",
+      "location": "Laie, HI",
+      "description": "Designed and maintained over 10 web applications for various university departments utilizing the Mendix low-code platform and Oracle DB, enhancing accessibility and user experience. Streamlined the university's database for user-friendly control by developing REST APIs using ASP.NET in C#, facilitating easier access for non-backend engineers through Docker containers. Assisted faculty and students in achieving an excellent university experience by maintaining and enhancing enterprise information systems for university applications, including troubleshooting, analyzing, and implementing improvements to ensure optimal performance and reliability."
     },
     {
-      "company": "Startup Inc.",
-      "role": "Full Stack Developer",
-      "period": "2020 - 2022",
-      "description": "Developed full-stack applications and contributed to product strategy and user experience design."
-    },
-    {
-      "company": "Digital Agency",
-      "role": "Frontend Developer",
-      "period": "2019 - 2020",
-      "description": "Created responsive websites and web applications for various clients across different industries."
+      "company": "Link X Japan",
+      "role": "SaaS Developer Intern",
+      "period": "Jul 2024 – Present",
+      "location": "Tokyo, Japan (Remote)",
+      "description": "Developed and enhanced a core feature of an unreleased SaaS product using React for front-end development, ensuring a seamless and responsive user interface for article editing tools. Collaborated with cross-functional teams to implement AI-driven content editing capabilities using GPT-based models, allowing users to generate, edit, and optimize content for media, social media, and blog posts. Conducted regular code reviews and implemented best practices for code quality, security, and performance, reducing bug frequency and enhancing maintainability."
     }
   ],
   "profileProjects": [
     {
-      "title": "E-commerce Platform",
-      "description": "Modern e-commerce solution built with Next.js, TypeScript, and Tailwind CSS.",
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-      "link": "#"
+      "title": "Notion Database Application",
+      "description": "Web application that integrates with Notion API to manage and interact with Notion databases, providing enhanced functionality for data management.",
+      "tech": ["Python", "Notion API", "Flask"],
+      "link": "https://github.com/ask-t/APP_Notion-Datbase"
     },
     {
-      "title": "Design System",
-      "description": "Comprehensive design system with reusable components and documentation.",
-      "tech": ["React", "Storybook", "Figma", "TypeScript"],
-      "link": "#"
+      "title": "Script Translation API",
+      "description": "API service that translates scripts and text content between multiple languages, streamlining multilingual content creation workflows.",
+      "tech": ["Python", "REST API", "Translation APIs"],
+      "link": "https://github.com/ask-t/API_ScriptTranslate"
     },
     {
-      "title": "Analytics Dashboard",
-      "description": "Real-time analytics dashboard with interactive charts and data visualization.",
-      "tech": ["React", "D3.js", "Node.js", "PostgreSQL"],
-      "link": "#"
+      "title": "Tango Learning App with Notion",
+      "description": "Language learning application integrated with Notion for vocabulary management, helping users study Japanese efficiently with organized word lists.",
+      "tech": ["Python", "Notion API", "Education Tech"],
+      "link": "https://github.com/ask-t/TangoAPP-with-Notion"
     }
   ]
 }
