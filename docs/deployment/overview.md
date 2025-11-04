@@ -26,7 +26,7 @@ Vercelは最も簡単なデプロイ方法です：
 3. ビルド設定を確認（自動検出）
 4. デプロイボタンをクリック
 
-詳細な手順は [DEPLOYMENT_GUIDE.md](/DEPLOYMENT_GUIDE.md) を参照してください。
+詳細な手順は [GitHubリポジトリ](https://github.com/ask-t/ask-t.main-1) を参照してください。
 
 ## 本番環境チェックリスト
 
