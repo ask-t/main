@@ -1,0 +1,95 @@
+{
+  "articles": [
+    {
+      "title": "E-commerce Platform Architecture: From MVP to Scale",
+      "excerpt": "Deep dive into building large-scale e-commerce platforms. Covers microservices architecture, database design, and performance optimization with practical implementation approaches.",
+      "date": "2024-01-15",
+      "readTime": "12 min read",
+      "tags": ["E-commerce", "Architecture", "Scalability"],
+      "slug": "ecommerce-platform-architecture",
+      "file": "2024-01-ecommerce-platform-architecture.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image4.png"
+    },
+    {
+      "title": "Building Enterprise Design Systems: Lessons Learned",
+      "excerpt": "Insights from real-world enterprise design system implementation. Shares best practices for component design, documentation strategy, and team adoption.",
+      "date": "2024-01-10",
+      "readTime": "9 min read",
+      "tags": ["Design Systems", "Enterprise", "Best Practices"],
+      "slug": "enterprise-design-systems-lessons",
+      "file": "2024-01-enterprise-design-systems-lessons.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image5.png"
+    },
+    {
+      "title": "Real-time Data Processing: Building Analytics at Scale",
+      "excerpt": "Technical deep-dive into real-time data processing systems. Covers Apache Kafka, streaming processing, and dashboard optimization with detailed implementation strategies.",
+      "date": "2024-01-05",
+      "readTime": "15 min read",
+      "tags": ["Real-time", "Data Processing", "Analytics"],
+      "slug": "realtime-data-processing-analytics",
+      "file": "2024-01-realtime-data-processing-analytics.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image6.png"
+    },
+    {
+      "title": "Building Scalable React Applications",
+      "excerpt": "Learn how to structure and organize React applications for long-term maintainability and team collaboration.",
+      "date": "2024-01-15",
+      "readTime": "8 min read",
+      "tags": ["React", "Architecture", "Best Practices"],
+      "slug": "building-scalable-react-applications",
+      "file": "2024-01-building-scalable-react-applications.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image1.png"
+    },
+    {
+      "title": "Design Systems in Practice",
+      "excerpt": "A deep dive into creating and maintaining design systems that actually work for development teams.",
+      "date": "2024-01-10",
+      "readTime": "6 min read",
+      "tags": ["Design Systems", "UI/UX", "Development"],
+      "slug": "design-systems-in-practice",
+      "file": "2024-01-design-systems-in-practice.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image2.png"
+    },
+    {
+      "title": "Performance Optimization Techniques",
+      "excerpt": "Essential techniques for optimizing web application performance, from bundle size to runtime optimization.",
+      "date": "2024-01-05",
+      "readTime": "10 min read",
+      "tags": ["Performance", "Optimization", "Web Development"],
+      "slug": "performance-optimization-techniques",
+      "file": "2024-01-performance-optimization-techniques.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image3.png"
+    },
+    {
+      "title": "Modern JavaScript Best Practices",
+      "excerpt": "Essential JavaScript patterns and practices for writing maintainable and efficient code in 2024.",
+      "date": "2024-01-01",
+      "readTime": "7 min read",
+      "tags": ["JavaScript", "Best Practices", "Modern Development"],
+      "slug": "modern-javascript-best-practices",
+      "file": "2024-01-modern-javascript-best-practices.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image4.png"
+    },
+    {
+      "title": "TypeScript Advanced Patterns",
+      "excerpt": "Advanced TypeScript patterns and techniques for building robust type-safe applications.",
+      "date": "2023-12-28",
+      "readTime": "11 min read",
+      "tags": ["TypeScript", "Advanced Patterns", "Type Safety"],
+      "slug": "typescript-advanced-patterns",
+      "file": "2023-12-typescript-advanced-patterns.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image4.png"
+    },
+    {
+      "title": "API Design Principles",
+      "excerpt": "Best practices for designing RESTful APIs that are intuitive, scalable, and maintainable.",
+      "date": "2023-12-25",
+      "readTime": "9 min read",
+      "tags": ["API Design", "REST", "Backend Development"],
+      "slug": "api-design-principles",
+      "file": "2023-12-api-design-principles.md",
+      "image": "https://storage.googleapis.com/askt-dev/ask-t/gallery/image4.png"
+    }
+  ]
+}
+
